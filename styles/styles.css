@@ -127,7 +127,7 @@ body {
 
     width: 50%;
     text-align: center;
-    padding: 21.5px 0;
+    padding: 21.5px 5px;
     border-radius: 16px ;
     margin-top: 20px;
     font-family: var(--font-montserrat);
@@ -184,7 +184,7 @@ body {
 .phone, .email {
 
     display: flex;
-    flex-direction: row ;
+    flex-direction: column ;
     gap: 10px;
     
 }
