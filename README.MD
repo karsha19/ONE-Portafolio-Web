@@ -10,7 +10,6 @@ Versión para tablet:
 
 Versión para móvil:
 
-
 ![imagen](assets/Mobile.png)
 
 
