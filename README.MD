@@ -23,7 +23,7 @@ Versión para móvil:
 
 ## Hecho por:
 
-**Marco Vergara**
+**Marco Pretelín Vergara**
 
-#![imagen](assets/icons8-linkedin.svg)
+![imagen](assets/icons8-linkedin.svg)
  ## https://www.linkedin.com/in/marco-ariel-pretelin-vergara/
