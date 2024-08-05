@@ -9,6 +9,8 @@ Versión para tablet:
 ![imagen](assets/Tablet.png)
 
 Versión para móvil:
+
+
 ![imagen](assets/Mobile.png)
 
 
