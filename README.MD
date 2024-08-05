@@ -19,7 +19,7 @@ Versión para móvil:
 
  ![imagen](assets/icons8-css.svg)
 
-* Flex-box
+
 
 ## Hecho por:
 
