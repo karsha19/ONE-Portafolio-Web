@@ -15,9 +15,9 @@ Versión para móvil:
 
 ## Herramientas utilizadas:
 
-* ![imagen](assets/icons8-html.svg)
+ ![imagen](assets/icons8-html.svg)
 
-* CSS
+ ![imagen](assets/icons8-css.svg)
 
 * Flex-box
 
