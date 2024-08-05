@@ -1,6 +1,16 @@
 # Portfolio ¡Hola, bienvenido a mi proyecto de portafolio!
 
-![imagen]()
+
+Versión Desktop:
+![imagen](assets/Desktop.png)
+
+
+Versión para tablet:
+![imagen](assets/Tablet.png)
+
+Versión para móvil:
+![imagen](assets/Mobile.png)
+
 
 ## Herramientas utilizadas:
 
