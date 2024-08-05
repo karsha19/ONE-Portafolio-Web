@@ -25,4 +25,4 @@ Versión para móvil:
 
 ###Marco Pretelín Vergara
 
-### Linkedin: https://www.linkedin.com/in/marco-ariel-pretelin-vergara/
+### ![imagen](assets/icons8-linkedin.svg): https://www.linkedin.com/in/marco-ariel-pretelin-vergara/
