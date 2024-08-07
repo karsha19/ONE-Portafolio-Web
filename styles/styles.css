@@ -42,7 +42,7 @@ body {
 .header__menu {
 
     display: flex;
-    gap: 80px;
+    gap: 30px;
 }
 
 .header__menu__link {
@@ -188,6 +188,66 @@ body {
     gap: 10px;
     
 }
+.portafolio {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.portafolio__container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+    font-size: 0.7rem;
+}
+
+.portafolio__item {
+
+    background-color: var(--secondary-color);
+    width: 35%;
+    height: auto;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.portafolio__item__description {
+
+    border-bottom: 2px solid var(--third-color) ;
+    width: 50%;
+}
+
+.portafolio__item__tecs {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.portafolio__item__img {
+
+    width: 30px;
+    height: 30px;
+    
+
+}
+
+.img-gibson-store {
+
+    width: 60%;
+    margin-top: 5px;
+}
+
+.img-weather-app {
+
+    margin-top: 5px;
+    width: 40%;
+}
 
 
 @media(max-width: 1200px) {
@@ -200,6 +260,7 @@ body {
     
    .header__menu {
         justify-content: center;
+        gap: 10px;
         
 
     
