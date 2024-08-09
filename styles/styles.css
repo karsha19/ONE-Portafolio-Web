@@ -163,6 +163,9 @@ body {
 
 .footer {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--third-color);
     color: var(--main-color);
     width: 100%;
@@ -193,6 +196,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: -30px;
     
 }
 .portafolio {
@@ -339,6 +343,11 @@ body {
     .presentacion___contenido__titulo {
 
         text-align: center;
+    }
+    .presentacion__contenido__texto {
+
+        text-align: center;
+        text-align: justify;
     }
 
     .contact p {
