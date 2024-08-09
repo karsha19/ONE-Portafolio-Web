@@ -393,3 +393,11 @@ body {
 
 
 }
+
+@media(max-width: 350px) {
+
+    .presentacion__enlaces__link {
+
+        font-size: 1.3rem;
+    }
+}
