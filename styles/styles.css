@@ -329,7 +329,7 @@ body {
     .presentacion__contenido__texto {
 
         text-align: center;
-        text-align: justify;
+        text-align: left;
     }
 
     .contact p {
