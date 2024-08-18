@@ -30,7 +30,6 @@ body {
 
     background-color: var(--main-color);
     color: #F6F6F6;
-    
     overflow-x: hidden;
 }
 
@@ -202,115 +201,89 @@ body {
     margin-left: -30px;
     
 }
-.portafolio {
 
-    display: flex;
-    flex-direction: column;
+.presentacion__portafolio {
+
+    padding: 6% 15%;
+    justify-content: space-between;
+    gap: 82px;
 }
 
-.portafolio__container {
+.portafolio-container {
 
+    
     display: flex;
     flex-wrap: wrap;
+    font-family: var(--font-krona);
+    font-size: 0.8rem;
+    gap: 1rem;
     margin-top: 5rem;
-    gap: 3rem;
-    justify-content: center;
-    font-family: var(--font-montserrat);
-    font-size: 0.7rem;
 }
 
-.portafolio__item {
+.portafolio-container span {
 
-    background-color: var(--secondary-color);
-    width: 35%;
-    height: auto;
-    gap: 15px;
+    font-family: var(--font-montserrat);
+}
+
+.portafolio-container .box {
+
+    flex: 1 1 10rem;
+    background: var(--secondary-color);
+    padding: 15px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
-    padding: 1%;
-
+    margin-top: 3rem;
+    border-radius: 0.5rem;
 }
 
-.portafolio__item__title {
+.portafolio-container .box .box__title h1 {
 
-    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
 }
 
-.title-encriptador {
+.portafolio-container .box span {
 
-
-    margin-top: 36px;
-    text-align: center;
+    margin-top: 0.7rem;
 }
 
-.title-starbucks {
+.portafolio-container .box .box__img {
 
-    margin-top: 36px;
-    margin-bottom: 3px;
-}
-
-#title-gibson {
-
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-#title-weather {
- 
-    margin-top: 7px;
-    margin-bottom: 7px
-
-}
-
-.portafolio__item__description {
-
-    border-bottom: 2px solid var(--third-color) ;
-    width: auto;
-    text-align: center;
-    font-size: 0.9rem;
+    width: 210px;
+    height: 150px;
 }
 
 
+.portafolio-container .box .box__img img {
 
-.portafolio__item__tecs {
+   width: 100%;
+   height: 100%; 
 
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
 }
 
-.portafolio__item__img {
 
-    width: 30px;
-    height: 30px;
+.techs__img, .pages__links {
+
+    margin: 1rem 0 0.1rem;
+}
+
+.portafolio-container .box .techs__img img {
+
+    margin: 1rem 0 0.1rem;
+    width: 40px;
+}
+
+.portafolio-container .box .pages__links img {
+
     
+    width: 40px;
 
 }
 
-.img-gibson-store {
 
-    width: 60%;
-    margin-top: 5px;
-}
 
-.img-weather-app {
-
-    margin-top: 5px;
-    width: 40%;
-}
-
-.img-encriptador {
-
-    width: 80%;
-    margin-top: 5px;
-}
-
-.img-starbucks {
-
-    width: 90%;
-    margin-top: 5px;
-}
 
 
 @media(max-width: 1200px) {
@@ -369,32 +342,29 @@ body {
         margin-right: -238px;
     }
 
-    .portafolio {
+    .portafolio-container {
 
         flex-direction: column;
     }
 
-    .portafolio__container {
+    .portafolio-container .box .box__img {
 
-        flex-direction: column;
-        align-items: center;
+        width: 410px;
+        height: 350px;
+    }
+    
+    .portafolio-container .box .box__img img {
+    
+       width: 100%;
+       height: 100%; 
+    
     }
 
-    .portafolio__item {
-
-        width: 70%;
-    }
-    .title-encriptador {
-
-        text-align: center;
-    }
-
-
-
+    
 
 }
 
-@media(max-width: 360px) {
+@media(max-width: 590px) {
 
     .presentacion__enlaces__link {
 
@@ -405,4 +375,18 @@ body {
 
         margin-left: 30px;
     }
+
+    .portafolio-container .box .box__img {
+
+        width: inherit;
+        height: inherit;
+    }
+    
+    .portafolio-container .box .box__img img {
+    
+       width: 100%;
+       height: 100%; 
+    
+    }
+
 }
