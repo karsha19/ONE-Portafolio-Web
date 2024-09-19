@@ -55,6 +55,8 @@ body {
     overflow-x: hidden;
 }
 
+
+/* HEADER */
 .header {
 
     
@@ -90,6 +92,9 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+
+
+/* PRESENTACIÓN */
 
 
 
@@ -183,6 +188,87 @@ body {
     
 }
 
+
+/* ABOUT */
+
+.presentacion__about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 144px;
+    padding: 1rem;
+}
+
+.presentacion__contenido-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.presentacion__about__contenido {
+    flex: 1;
+    max-width: 60%;
+    padding-right: 20px;
+}
+
+.presentacion___about__contenido__titulo {
+
+    font-size: 2.25rem;
+    margin-bottom: 60px;
+}
+
+
+.presentacion__about__imagen {
+    max-width: 30%;
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-right: 170px;
+}
+
+.habilidades {
+    width: 100%;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.habilidades__titulo,
+.formacion__titulo {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.habilidades__lista,
+.formacion__lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.habilidades__elemento,
+.formacion__elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habilidades__icono,
+.formacion__icono {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+
 .footer {
 
     display: flex;
@@ -222,6 +308,8 @@ body {
     
 }
 
+
+/* PORTAFOLIO */
 .presentacion__portafolio {
 
     margin-top: 10px;
@@ -318,6 +406,32 @@ body {
 }
 
 
+/* FORMACION */
+
+.formacion {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formacion__elemento img {
+
+    width: 90px;
+    height: 90px;
+}
+
+#buap-logo{
+
+    background:#fff;
+    border-radius:50%;
+}
+
+
+
+
 
 @media(max-width: 1024px) {
 
@@ -384,6 +498,47 @@ body {
         margin-left: 10px;
     }
 
+    .presentacion__about {
+
+        flex-direction: column;
+    }
+
+    .presentacion__about {
+        margin-left: 50px;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .presentacion__contenido-imagen {
+        flex-direction: column;
+    }
+
+    .presentacion__about__contenido {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .presentacion___about__contenido__titulo {
+        text-align: center;
+    }
+
+    .presentacion__about__imagen {
+        max-width: 50%;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .habilidades,
+    .formacion {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .habilidades__titulo,
+    .formacion__titulo {
+        text-align: center;
+    }
 
 
     .contact p {
@@ -394,6 +549,11 @@ body {
     .titulo {
 
         margin-right: -238px;
+    }
+
+    .formacion__elemento {
+
+        margin-bottom: 20px;
     }
 
  
@@ -412,6 +572,8 @@ body {
 
     }
 
+
+
     .presentacion__enlaces__link {
 
         font-size: 1.3rem;
@@ -425,6 +587,61 @@ body {
     .presentacion__imagen {
 
         margin-top: 50px;
+    }
+
+
+    .presentacion__about {
+        margin-left: 10px;
+        padding: 0.5rem;
+        flex-direction: column;
+    }
+
+    .presentacion__about__contenido {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .presentacion___about__contenido__titulo {
+        font-size: 2.25rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .presentacion__about__contenido__texto {
+
+        font-size: 1.5rem;
+    }
+
+    .presentacion__about__imagen {
+        max-width: 60%;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 0;
+        margin-left: 90px;
+    }
+
+    .habilidades,
+    .formacion {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .habilidades__lista,
+    .formacion__lista {
+        gap: 10px;
+    }
+
+    .habilidades__icono,
+    .formacion__icono {
+        width: 25px;
+        height: 25px;
+    }
+
+    .habilidades__titulo,
+    .formacion__titulo {
+        font-size: 1.25rem;
+        text-align: center;
     }
 
 
