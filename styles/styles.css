@@ -25,6 +25,7 @@ html{
 
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
+    font-family: Noto Sans, sans-serif;
 }
 
 html::-webkit-scrollbar {
@@ -72,7 +73,7 @@ body {
 
     width: 150px;
     text-align: center;
-    font-family: var(--font-montserrat);
+    font-family: var();
     padding: 7px;
     font-size: 1.5rem;
     font-weight: 600;
@@ -109,7 +110,8 @@ body {
 
     text-align: left;
     font-size: 2.25rem;
-    font-family: var(--font-krona);
+    margin-bottom: 60px;
+    font-family: var();
 }
 
 .titulo {
@@ -126,7 +128,8 @@ body {
 .presentacion__contenido__texto {
 
     font-size: 1.5rem;
-    font-family: var(--font-montserrat);
+    margin-bottom: 40px;
+    font-family: var();
 }
 
 .presentacion__enlaces {
@@ -140,7 +143,7 @@ body {
 
 .presentacion__enlaces__subtitulo {
 
-    font-family: var(--font-krona);
+    font-family: var();
     font-size: 1.5rem;
     font-weight: 400;
     
@@ -153,7 +156,7 @@ body {
     padding: 21.5px 5px;
     border-radius: 16px;
     margin-top: 20px;
-    font-family: var(--font-montserrat);
+    font-family: var();
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
@@ -176,7 +179,7 @@ body {
 
     width: 50%;
     border-radius: 10px;
-    margin-top: -600px;
+    margin-top: -396px;
     
 }
 
@@ -190,7 +193,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 24px;
-    font-family: var(--font-montserrat);
+    font-family: var();
     font-size: 1.5rem;
     font-weight: 400;
 
@@ -228,6 +231,15 @@ body {
     padding-right: 1rem;
 }
 
+
+.presentacion___portafolio__titulo {
+
+    margin-left: 115px;
+    margin-bottom: 60px;
+}
+
+
+
 .portafolio-container {
     display: flex;
     flex-wrap: wrap;
@@ -248,6 +260,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease
+}
+
+.box:hover {
+
+    transform: scale(1.05);
 }
 
 
@@ -261,6 +279,12 @@ body {
 .box__texto {
     text-align: center;
     margin-top: 10px;
+}
+
+.proyectos__nombre,
+.proyectos__descripcion {
+
+    margin-bottom: 20px;
 }
 
 .box__tecnologias {
@@ -339,7 +363,10 @@ body {
     .presentacion___contenido__titulo {
 
         text-align: center;
+        margin-bottom: 30px;
     }
+
+
     .presentacion__contenido__texto {
 
         text-align: center;
@@ -349,6 +376,12 @@ body {
     .presentacion__imagen {
 
         margin-top: 50px;
+    }
+
+    .presentacion___portafolio__titulo {
+
+        text-align: center;
+        margin-left: 10px;
     }
 
 
@@ -370,6 +403,7 @@ body {
 }
 
 @media(max-width: 480px) {
+
 
     .presentacion {
 
